@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="html.css">
+    <link rel="stylesheet" href="D:\bootstrap\bootstrap\bootstrap\css">
+    <title>HTML TAGS</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <button><li class="border-colr"><a href="home">HOME</a></li></button>
+                <button><li class="border-colr"><a href="home">links</a></li></button>
+                <button><li class="border-colr"><a href="home">style</a></li></button>
+                <button><li class="border-colr"><a href="home">text</a></li></button>
+            </ul>
+        </nav>
+    </div>
+    
+    <div><h2>HEADING TAGS</h2>
+        <h1>HEADING 1</h1>
+        <h2>HEADING 2</h2>
+        <h3>HEADING 3</h3>
+        <h4>HEADING 4</h4>
+        <h5>HEADING 5</h5>
+        <h6>HEADING 6</h6>
+        <p>paragraph tag</p>
+    </div>
+<div class="div-text"><h2>TEXT FORMATING TAGS</h2> <br>
+    <ol>
+<li><b>bold text</b><br></li>
+<li><strong>strong text</strong><br></li>
+<li><i>italic text</i><br></li>
+<li><em>emphasized text</em><br></li>
+<li><del>deleted text</del><br></li>
+<li><ins>inserted text</ins><br></li>
+<li>H<sub>2</sub>0(subscript)<br></li>
+<li>x<sup>3</sup>(superscript)<br></li>
+</ol>
+</div>
+    <h2>QUATATION TAGS</h2>
+    <ol>
+   <li> <blockquote cite="index.html">
+    section that is quoted from another source(blockquote)
+  </blockquote></li>
+  <li>short quotation<q>
+    short quotation
+  </q></li>
+  <li>
+    absorvation tag
+    <abbr title="MPH">multi purpose hall</abbr>
+  </li>
+  <li>
+    adddress tag
+    <address>
+        sc-hostal<br>
+        bommalasatram<br>
+        NANDYAL-518501<br>
+
+    </address>
+  </li>
+  <li>
+    <cite>The page my me</cite>
+    the cite tag is defines title of the creative work
+  </li>
+  <li>
+    <bdo dir="rtl">hello BENNY</bdo>
+    bi-directional tag(reverse ordered)
+
+  </li>
+  </ol>
+</div>
+<p>comments in html 
+    "<!- -this is a comment-  ->"
+    its hide the content
+</p>
+<div>
+   <ol>
+    <li>
+        color names(ex:-orange,blue,green,tomato etc.........)<br>
+        <h4 style="background-color: tomato;">tomato</h4>
+    </li>
+    
+    <li>
+    text color we can change text color<br>
+      <h4 style="color: blue;"> text color</h4>
+
+
+    </li>
+    <li>
+        Border border color <br>
+        <h4 style="border-color: 3px solid green;"> boder color:3px solid green </h4>
+    </li>
+    <li>
+        coloring using color values via rgb(red,green,blue)<br>
+        <h4 style="background-color: rgb(200, 255, 100);"> coloring using rgb(200, 255, 100)</h4>
+    </li>
+    <li>
+       cloring using rgba(red,gree,blue,alpha)<br>
+       <em>alpha means transparent between 0.0 to 1.0  <li>0.0 means fully transparent</li><li>1.0 menas not transperent all</li></em>
+       <h4 style="background-color: rgba(99, 99, 99, 0.7);">background-color: rgba(99, 99, 99, 0.7); </h4>
+    </li>
+    <li>
+        HEXA COLOR values rrggbb(red,green,blockquote) values should be 0-250<br>
+        <EM>hexa color values means <i>rrggbbb></i></EM>
+        <h4 style="background-color: #ff0010;">background-color: #ff0010;</h4>
+        grey shades
+        <h4 style="color: #686868;">color: #686868;</h4>
+
+    </li>
+    <li>
+      HSL<br>
+     HSL(HUE,SATURATION,LIGHTNESS)<br>
+     hue:0 to 360 degree<br>
+     SATURATION:0% to 100%<br>
+     LIGHTNESS:0% to 100%<br>
+     <h4 style="background-color: hsl(144,86%, 76%);"> hsl(144,86%, 76%)</h4>
+
+    </li>
+    <li>
+        HSLA.<br>
+        HSLA(HUE,SATURATION,LIGHTNESS,ALPHA)<br>
+        hue:0 to 360 degree<br>
+        SATURATION:0% to 100%<br>
+        LIGHTNESS:0% to 100%<br>
+        <h4 style="background-color:hsla(189, 89%, 75%, 0.6);"> hsl(144,86%, 76%)</h4>
+    </li>
+   </ol>
+
+</div>
+<div>
+    <h2>css (cascading style sheets</h2>
+    <ol>
+        TYPES OF STYLING MECHANISMS
+        <li>in-line css
+            <ol>
+                <li>styleing using a single line</li>
+                <h4 style="background-color: hsla(44, 60%, 60%, 0.4);"> example :background-color: hsla(44, 60%, 60%, 0.4);"</h4>
+            </ol>
+        </li>
+        <li>internal class
+            <ol>
+                <li>styleing in a block of code using "style tag"</li>
+                <p class="internal">
+                    hello BENNY
+                    <style>
+                        .internal{
+                            background-color: #cc8e92;
+                            color: green;
+                            padding: 19px;
+                            height: 30%;
+                        }
+                    </style>
+                    example:<br>
+                    <code> style
+                        .internal{
+                            background-color: #ff0010;
+                            color: green;
+                            padding: 19px;
+                            height: 30%;
+                        }
+                    style</code>
+                </p>
+                <li>
+                    external style sheets menas we creating another .css file we link in html document
+                    syntax:<br>
+                    <code>link rel="stylesheet" href="html.css"</code>
+        
+                </li>
+            </ol>
+
+        </li>
+    </ol>
+</div>
+<div>
+    HYPER LINKS:-<br>
+    <p>hyper link is link to redirecting another web page..<br>
+    by using this we use via link. </p>
+    <ol>
+   <li> 
+    <h5>example: using links</h5>
+    <a href="www.google.com"class="hyper-link"> it's a link for google HOME page</a>
+    <p>syntax:
+        
+        <code>< a href="">< /a ></code>
+    </p>
+   </li>
+   <li>
+    USING IMAGE 
+    <a href="www.youtube.com"target="_"><img src="beautiful.jpeg" ></a>
+    <ol>
+        <li>target:_blank(new window tab)</li>
+        <li>taget:_self(same window)</li>
+        <li>taget:_parent(open document in parent frame)</li>
+        <li>target:_top(full body of the window)</li>
+        <code>
+            a href="www.youtube.com"target="_"> img src="beautiful.jpeg" ></a>
+        </code>
+    </ol>
+   </li>
+   <li>
+    BUTTON link <br>  
+   <button><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced">google</a></button>
+    <li>
+</div>
+<div class="div-img">
+    <footer>
+        <address>
+            nandyal<br>
+            bommalasatram<br>
+
+        </address>
+        <a href="mailto:bennyraj740@gmail.com">mail me</a>
+    </footer>
+    <h2>IMAGE TAGS</h2>
+    <h3 class="ishu">ishwarya menon</h3>
+    <img class="img1"src="ishu.jfif" alt="ishu" width="500px"height="500px">
+</div>
+</body>
+</html>
